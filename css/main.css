@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #C5E4E7;
+   font-family: monospace;
+}
+
+
+.contend {
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.contend >img{
+ display: inline-block;
+ margin: 0  300px 30px;
+ text-align: center;
+}
+
+.wrapper {
+   display: flex;
+   gap: 15px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 20px;
+}
+
+.bill {
+   position: relative;
+
+}
+
+.bill strong {
+   display: block;
+   margin-bottom: 10px;
+   font-family: monospace;
+   font-size: 20px;
+   line-height: 20px;
+   letter-spacing: 5px;
+}
+
+.billInput {
+   display: inline-block;
+   width: 323px;
+   height: 40px;
+   padding: 0px 5px 0px 200px;
+   background-color: #F3F8FB;
+   color: #00474B;
+   font-family: monospace;
+   font-size: 24px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+}
+
+.bill img {
+   position: absolute;
+   top: 42px;
+   left: 10px;
+}
+
+.precent {
+   margin: 30px 0;
+}
+
+
+.precent strong {
+   display: block;
+   margin-bottom: 10px;
+   font-family: monospace;
+   font-size: 20px;
+   line-height: 20px;
+}
+
+.precent-list {
+   width: 350px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 16px;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.precent-item button {
+   width: 100px;
+   height: 40px;
+   border: none;
+   background-color: #00474B;
+   color: #fff;
+   border-radius: 5px;
+   font-family: monospace;
+   font-size: 24px;
+   line-height: 20px;
+   cursor: pointer;
+}
+
+.result {
+   width: 310px;
+   padding: 30px;
+   background-color: #00474B;
+   color: #fff;
+   border-radius: 10px;
+}
+
+.result p {
+   margin: 0;
+   opacity: 0.6;
+}
+
+.resilt-item{
+   margin-bottom: 100px;
+}
+
+.result button {
+   width: 100%;
+   background-color: #25C2AD;
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   color: #00474B;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.result button:active{
+   background-color: #8ca3a4;
+}
+
+.result-item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.p{
+   font-size: 30px;
+   color:#25C2AD;
+}
